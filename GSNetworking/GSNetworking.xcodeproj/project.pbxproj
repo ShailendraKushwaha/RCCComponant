@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA2DCF242937337200AFC416 /* GSNetworking.docc in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF232937337200AFC416 /* GSNetworking.docc */; };
+		BA2DCF2A2937337200AFC416 /* GSNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2DCF1F2937337200AFC416 /* GSNetworking.framework */; };
+		BA2DCF2F2937337200AFC416 /* GSNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF2E2937337200AFC416 /* GSNetworkingTests.swift */; };
+		BA2DCF302937337200AFC416 /* GSNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2DCF222937337200AFC416 /* GSNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA2DCF422937339700AFC416 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF3A2937339700AFC416 /* ApiKeys.swift */; };
+		BA2DCF432937339700AFC416 /* DeviceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF3B2937339700AFC416 /* DeviceDetails.swift */; };
+		BA2DCF442937339700AFC416 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF3C2937339700AFC416 /* AppConstants.swift */; };
+		BA2DCF452937339700AFC416 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF3D2937339700AFC416 /* Webservices.swift */; };
+		BA2DCF462937339700AFC416 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF3E2937339700AFC416 /* NetworkError.swift */; };
+		BA2DCF472937339700AFC416 /* Webservice+EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF3F2937339700AFC416 /* Webservice+EndPoints.swift */; };
+		BA2DCF482937339700AFC416 /* AppNetworkingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF402937339700AFC416 /* AppNetworkingRequest.swift */; };
+		BA2DCF492937339700AFC416 /* AppNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF412937339700AFC416 /* AppNetworking.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA2DCF2B2937337200AFC416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2DCF162937337200AFC416 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2DCF1E2937337200AFC416;
+			remoteInfo = GSNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA2DCF1F2937337200AFC416 /* GSNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GSNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2DCF222937337200AFC416 /* GSNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSNetworking.h; sourceTree = "<group>"; };
+		BA2DCF232937337200AFC416 /* GSNetworking.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GSNetworking.docc; sourceTree = "<group>"; };
+		BA2DCF292937337200AFC416 /* GSNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2DCF2E2937337200AFC416 /* GSNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSNetworkingTests.swift; sourceTree = "<group>"; };
+		BA2DCF3A2937339700AFC416 /* ApiKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		BA2DCF3B2937339700AFC416 /* DeviceDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDetails.swift; sourceTree = "<group>"; };
+		BA2DCF3C2937339700AFC416 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		BA2DCF3D2937339700AFC416 /* Webservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
+		BA2DCF3E2937339700AFC416 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		BA2DCF3F2937339700AFC416 /* Webservice+EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Webservice+EndPoints.swift"; sourceTree = "<group>"; };
+		BA2DCF402937339700AFC416 /* AppNetworkingRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNetworkingRequest.swift; sourceTree = "<group>"; };
+		BA2DCF412937339700AFC416 /* AppNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNetworking.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA2DCF1C2937337200AFC416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2DCF262937337200AFC416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2DCF2A2937337200AFC416 /* GSNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2DCF152937337200AFC416 = {
+			isa = PBXGroup;
+			children = (
+				BA2DCF212937337200AFC416 /* GSNetworking */,
+				BA2DCF2D2937337200AFC416 /* GSNetworkingTests */,
+				BA2DCF202937337200AFC416 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA2DCF202937337200AFC416 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA2DCF1F2937337200AFC416 /* GSNetworking.framework */,
+				BA2DCF292937337200AFC416 /* GSNetworkingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA2DCF212937337200AFC416 /* GSNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				BA2DCF392937339700AFC416 /* Services */,
+				BA2DCF222937337200AFC416 /* GSNetworking.h */,
+				BA2DCF232937337200AFC416 /* GSNetworking.docc */,
+			);
+			path = GSNetworking;
+			sourceTree = "<group>";
+		};
+		BA2DCF2D2937337200AFC416 /* GSNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2DCF2E2937337200AFC416 /* GSNetworkingTests.swift */,
+			);
+			path = GSNetworkingTests;
+			sourceTree = "<group>";
+		};
+		BA2DCF392937339700AFC416 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BA2DCF3A2937339700AFC416 /* ApiKeys.swift */,
+				BA2DCF3B2937339700AFC416 /* DeviceDetails.swift */,
+				BA2DCF3C2937339700AFC416 /* AppConstants.swift */,
+				BA2DCF3D2937339700AFC416 /* Webservices.swift */,
+				BA2DCF3E2937339700AFC416 /* NetworkError.swift */,
+				BA2DCF3F2937339700AFC416 /* Webservice+EndPoints.swift */,
+				BA2DCF402937339700AFC416 /* AppNetworkingRequest.swift */,
+				BA2DCF412937339700AFC416 /* AppNetworking.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA2DCF1A2937337200AFC416 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2DCF302937337200AFC416 /* GSNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BA2DCF1E2937337200AFC416 /* GSNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2DCF332937337200AFC416 /* Build configuration list for PBXNativeTarget "GSNetworking" */;
+			buildPhases = (
+				BA2DCF1A2937337200AFC416 /* Headers */,
+				BA2DCF1B2937337200AFC416 /* Sources */,
+				BA2DCF1C2937337200AFC416 /* Frameworks */,
+				BA2DCF1D2937337200AFC416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSNetworking;
+			productName = GSNetworking;
+			productReference = BA2DCF1F2937337200AFC416 /* GSNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA2DCF282937337200AFC416 /* GSNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2DCF362937337200AFC416 /* Build configuration list for PBXNativeTarget "GSNetworkingTests" */;
+			buildPhases = (
+				BA2DCF252937337200AFC416 /* Sources */,
+				BA2DCF262937337200AFC416 /* Frameworks */,
+				BA2DCF272937337200AFC416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2DCF2C2937337200AFC416 /* PBXTargetDependency */,
+			);
+			name = GSNetworkingTests;
+			productName = GSNetworkingTests;
+			productReference = BA2DCF292937337200AFC416 /* GSNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA2DCF162937337200AFC416 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BA2DCF1E2937337200AFC416 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BA2DCF282937337200AFC416 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BA2DCF192937337200AFC416 /* Build configuration list for PBXProject "GSNetworking" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA2DCF152937337200AFC416;
+			productRefGroup = BA2DCF202937337200AFC416 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA2DCF1E2937337200AFC416 /* GSNetworking */,
+				BA2DCF282937337200AFC416 /* GSNetworkingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA2DCF1D2937337200AFC416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2DCF272937337200AFC416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA2DCF1B2937337200AFC416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2DCF452937339700AFC416 /* Webservices.swift in Sources */,
+				BA2DCF432937339700AFC416 /* DeviceDetails.swift in Sources */,
+				BA2DCF422937339700AFC416 /* ApiKeys.swift in Sources */,
+				BA2DCF462937339700AFC416 /* NetworkError.swift in Sources */,
+				BA2DCF242937337200AFC416 /* GSNetworking.docc in Sources */,
+				BA2DCF472937339700AFC416 /* Webservice+EndPoints.swift in Sources */,
+				BA2DCF442937339700AFC416 /* AppConstants.swift in Sources */,
+				BA2DCF482937339700AFC416 /* AppNetworkingRequest.swift in Sources */,
+				BA2DCF492937339700AFC416 /* AppNetworking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2DCF252937337200AFC416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2DCF2F2937337200AFC416 /* GSNetworkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA2DCF2C2937337200AFC416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2DCF1E2937337200AFC416 /* GSNetworking */;
+			targetProxy = BA2DCF2B2937337200AFC416 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA2DCF312937337200AFC416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA2DCF322937337200AFC416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA2DCF342937337200AFC416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = app.example.GSNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA2DCF352937337200AFC416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = app.example.GSNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA2DCF372937337200AFC416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.example.GSNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA2DCF382937337200AFC416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.example.GSNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA2DCF192937337200AFC416 /* Build configuration list for PBXProject "GSNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2DCF312937337200AFC416 /* Debug */,
+				BA2DCF322937337200AFC416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2DCF332937337200AFC416 /* Build configuration list for PBXNativeTarget "GSNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2DCF342937337200AFC416 /* Debug */,
+				BA2DCF352937337200AFC416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2DCF362937337200AFC416 /* Build configuration list for PBXNativeTarget "GSNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2DCF372937337200AFC416 /* Debug */,
+				BA2DCF382937337200AFC416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA2DCF162937337200AFC416 /* Project object */;
+}
