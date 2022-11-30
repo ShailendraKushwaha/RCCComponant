@@ -61,9 +61,9 @@ class ViewModel {
     var subscriptions: Set<AnyCancellable> = []
     
     func getUserData(userId: String) {
-        let service =  WebServices.shared
+        let service =  GSNetworking.shared
         let params: [String:Any] = ["id":userId]
-        service.commonAPICall(query: params , requestBodyModel:  String(), requestType: .get, endPoint: .userProfile, resultType: ProfileModel.self)
+        service.commonAPICall(query: params , requestBodyModel:  String(), requestType: .get, endPoint: "/user/profile", resultType: ProfileModel.self)
             .receive(on: DispatchQueue.main)
             .sink { completion in
                 switch completion {

@@ -4,14 +4,12 @@
 import Foundation
 
 public enum AppNetworkingHttpMethods: String {
-    case get = "GET"
-    case post = "POST"
-    case put = "PUT"
-    case delete = "DELETE"
-    case patch = "PATCH"
+    case get     = "GET"
+    case post    = "POST"
+    case put     = "PUT"
+    case delete  = "DELETE"
+    case patch   = "PATCH"
 }
-
-typealias JSONDict = [String: Any]
 
 func printDebug<T>(_ obj : T) {
     #if DEBUG

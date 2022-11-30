@@ -10,11 +10,12 @@ public struct NetworkError: Error {
     let requestBody: String?
     let serverResponse: String?
 
-    init(withServerResponse response: Data? = nil, forRequestUrl url: URL, withHttpBody body: Data? = nil, errorMessage message: String, forStatusCode statusCode: Int) {
+    init(withServerResponse response: Data? = nil, forRequestUrl url: URL? = nil, withHttpBody body: Data? = nil, errorMessage message: String, forStatusCode statusCode: Int = 0) {
         self.serverResponse = response != nil ? String(data: response!, encoding: .utf8) : nil
         self.requestUrl = url
         self.requestBody = body != nil ? String(data: body!, encoding: .utf8) : nil
         self.httpStatusCode = statusCode
-        self.reason = message
+        self.reason = "GSNetworking Error:" + message
     }
+    
 }

@@ -14,11 +14,12 @@
 		BA2DCF422937339700AFC416 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF3A2937339700AFC416 /* ApiKeys.swift */; };
 		BA2DCF432937339700AFC416 /* DeviceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF3B2937339700AFC416 /* DeviceDetails.swift */; };
 		BA2DCF442937339700AFC416 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF3C2937339700AFC416 /* AppConstants.swift */; };
-		BA2DCF452937339700AFC416 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF3D2937339700AFC416 /* Webservices.swift */; };
+		BA2DCF452937339700AFC416 /* GSNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF3D2937339700AFC416 /* GSNetworking.swift */; };
 		BA2DCF462937339700AFC416 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF3E2937339700AFC416 /* NetworkError.swift */; };
-		BA2DCF472937339700AFC416 /* Webservice+EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF3F2937339700AFC416 /* Webservice+EndPoints.swift */; };
 		BA2DCF482937339700AFC416 /* AppNetworkingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF402937339700AFC416 /* AppNetworkingRequest.swift */; };
 		BA2DCF492937339700AFC416 /* AppNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF412937339700AFC416 /* AppNetworking.swift */; };
+		BA2DCF4B29373FF500AFC416 /* HTTPHeaderKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF4A29373FF500AFC416 /* HTTPHeaderKey.swift */; };
+		BA2DCF4D2937672500AFC416 /* AuthenticationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCF4C2937672500AFC416 /* AuthenticationType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +41,12 @@
 		BA2DCF3A2937339700AFC416 /* ApiKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
 		BA2DCF3B2937339700AFC416 /* DeviceDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDetails.swift; sourceTree = "<group>"; };
 		BA2DCF3C2937339700AFC416 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
-		BA2DCF3D2937339700AFC416 /* Webservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
+		BA2DCF3D2937339700AFC416 /* GSNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSNetworking.swift; sourceTree = "<group>"; };
 		BA2DCF3E2937339700AFC416 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
-		BA2DCF3F2937339700AFC416 /* Webservice+EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Webservice+EndPoints.swift"; sourceTree = "<group>"; };
 		BA2DCF402937339700AFC416 /* AppNetworkingRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNetworkingRequest.swift; sourceTree = "<group>"; };
 		BA2DCF412937339700AFC416 /* AppNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNetworking.swift; sourceTree = "<group>"; };
+		BA2DCF4A29373FF500AFC416 /* HTTPHeaderKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeaderKey.swift; sourceTree = "<group>"; };
+		BA2DCF4C2937672500AFC416 /* AuthenticationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +110,12 @@
 				BA2DCF3A2937339700AFC416 /* ApiKeys.swift */,
 				BA2DCF3B2937339700AFC416 /* DeviceDetails.swift */,
 				BA2DCF3C2937339700AFC416 /* AppConstants.swift */,
-				BA2DCF3D2937339700AFC416 /* Webservices.swift */,
+				BA2DCF3D2937339700AFC416 /* GSNetworking.swift */,
 				BA2DCF3E2937339700AFC416 /* NetworkError.swift */,
-				BA2DCF3F2937339700AFC416 /* Webservice+EndPoints.swift */,
 				BA2DCF402937339700AFC416 /* AppNetworkingRequest.swift */,
 				BA2DCF412937339700AFC416 /* AppNetworking.swift */,
+				BA2DCF4A29373FF500AFC416 /* HTTPHeaderKey.swift */,
+				BA2DCF4C2937672500AFC416 /* AuthenticationType.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -226,13 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA2DCF452937339700AFC416 /* Webservices.swift in Sources */,
+				BA2DCF452937339700AFC416 /* GSNetworking.swift in Sources */,
 				BA2DCF432937339700AFC416 /* DeviceDetails.swift in Sources */,
 				BA2DCF422937339700AFC416 /* ApiKeys.swift in Sources */,
 				BA2DCF462937339700AFC416 /* NetworkError.swift in Sources */,
 				BA2DCF242937337200AFC416 /* GSNetworking.docc in Sources */,
-				BA2DCF472937339700AFC416 /* Webservice+EndPoints.swift in Sources */,
 				BA2DCF442937339700AFC416 /* AppConstants.swift in Sources */,
+				BA2DCF4B29373FF500AFC416 /* HTTPHeaderKey.swift in Sources */,
+				BA2DCF4D2937672500AFC416 /* AuthenticationType.swift in Sources */,
 				BA2DCF482937339700AFC416 /* AppNetworkingRequest.swift in Sources */,
 				BA2DCF492937339700AFC416 /* AppNetworking.swift in Sources */,
 			);
@@ -396,7 +400,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 0.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = app.example.GSNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -423,7 +427,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 0.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = app.example.GSNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

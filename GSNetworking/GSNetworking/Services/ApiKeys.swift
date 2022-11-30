@@ -141,7 +141,7 @@ enum RequestType {
 
 // MARK: - Api Code
 //=======================
-enum ApiCode {
+enum HTTPCode {
     static var success              : Int { return 200 }
     static var sessionExpired       : Int { return 440 }
     static var session_Expired      : Int { return 408}
