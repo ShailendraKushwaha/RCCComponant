@@ -76,5 +76,4 @@ class ViewModel {
                 self?.userProfileData = userData
             }.store(in: &subscriptions)
     }
-
 }

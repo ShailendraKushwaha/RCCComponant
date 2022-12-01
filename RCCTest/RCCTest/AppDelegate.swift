@@ -12,10 +12,10 @@ import GSNetworking
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         GSNetworking.shared.setBaseURL("https://devpg-backend.herokuapp.com/api/v1")
+        GSNetworking.shared.setAuthneticationToken("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzdjODE2ZDViYjdlMTc2YmExZDMyOWUiLCJpYXQiOjE2NjkxMDg4NDZ9.ESyzPdxDh-4u6XyJyTTU3FIcdl6GNyuNwOd5o4t74ZM")
         return true
     }
 
